@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #4a6fa5;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a,
+.nav-links button {
+  color: white;
+  background: transparent;
+  border: none;
+  margin-left: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-links button {
+  text-decoration: underline;
+}
